@@ -84,10 +84,10 @@ img {
 
   color: var(--link-focus-color);
 }
-.logo-header {
+.logo__header {
   margin-right: 93px;
 }
-.logo-item {
+.logo__span {
   color: var(--text-black-color);
 }
 .nav {
@@ -97,8 +97,7 @@ img {
   display: flex;
   gap: 50px;
 }
-.nav__item {
-}
+
 .nav__link {
   position: relative;
 
