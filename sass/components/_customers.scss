@@ -10,7 +10,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(text-black-color);
+    color: $text-black-color;
   }
   &__list {
     display: flex;
