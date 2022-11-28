@@ -1,3 +1,5 @@
+$--items: 4;
+
 .team {
   padding: 94px 0;
   background-color: #f5f4fa;
@@ -13,7 +15,7 @@
     letter-spacing: 0.03em;
   }
 
-  &__list {
+  .team__list {
     $--items: 4;
   }
   &__group {
