@@ -1,9 +1,10 @@
 .nav {
   margin-right: auto;
-}
-.nav__list {
-  display: flex;
-  gap: 50px;
+
+  &__list {
+    display: flex;
+    gap: 50px;
+  }
 }
 
 .nav__link {
@@ -43,7 +44,7 @@
 
     border-radius: 2px;
 
-    background-color: var(--link-focus-color);
+    background-color: $--link-focus-color;
     opacity: 0;
     transition-property: transform, opacity;
     transition-duration: 250ms, 250ms;

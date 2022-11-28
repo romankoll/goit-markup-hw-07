@@ -1,5 +1,5 @@
 .active {
-  color: var(--link-focus-color);
+  color: $--link-focus-color;
 
   &::after {
     content: '';
@@ -15,7 +15,7 @@
 
     border-radius: 2px;
 
-    background-color: var(--link-focus-color);
+    background-color: $--link-focus-color;
     opacity: 1;
   }
 }

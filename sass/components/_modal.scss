@@ -31,7 +31,7 @@
   min-height: 581px;
   padding: 40px;
 
-  background: var(--text-fon-white-color);
+  background: $--text-fon-white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -60,7 +60,7 @@
   height: 30px;
   cursor: pointer;
 
-  background-color: var(--text-fon-white-color);
+  background-color: $--text-fon-white-color;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -88,7 +88,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--text-black-color);
+  color: $--text-black-color;
 }
 .modal__group {
   margin-bottom: 20px;
@@ -101,7 +101,7 @@
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
 
-  color: var(--text-paragraf-color);
+  color: $--text-paragraf-color;
 }
 .modal__wrapper {
   position: relative;
@@ -124,7 +124,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus {
-    border: 1px solid var(--link-focus-color);
+    border: 1px solid $--link-focus-color;
   }
 }
 .modal__img {
@@ -139,7 +139,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__field:focus + .modal__img {
-  fill: var(--link-focus-color);
+  fill: $--link-focus-color;
 }
 .modal__massege {
   display: block;
@@ -161,7 +161,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus {
-    border: 1px solid var(--link-focus-color);
+    border: 1px solid $--link-focus-color;
   }
 
   &::placeholder {
@@ -186,10 +186,10 @@
 
   letter-spacing: 0.03em;
 
-  color: var(--text-paragraf-color);
+  color: $--text-paragraf-color;
 }
 .modal__link {
-  color: var(--link-focus-color);
+  color: $--link-focus-color;
   text-underline-offset: 3px;
 }
 .modal__checkbox {
@@ -200,7 +200,7 @@
   outline: unset;
   background-color: transparent;
 
-  border: 2px solid var(--text-black-color);
+  border: 2px solid $--text-black-color;
   border-radius: 2px;
 
   background-position: center;
@@ -212,8 +212,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:checked {
-    background-color: var(--link-focus-color);
-    border-color: var(--link-focus-color);
+    background-color: $--link-focus-color;
+    border-color: $--link-focus-color;
     background-image: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.95703 4.75166L1.88825 4.68604L1.81923 4.75141L0.93123 5.59258L0.854858 5.66492L0.930974 5.73753L4.42671 9.07236L4.49574 9.1382L4.56476 9.07236L12.069 1.91352L12.1449 1.84116L12.069 1.76881L11.1873 0.927644L11.1183 0.861826L11.0493 0.927611L4.49577 7.17353L1.95703 4.75166Z' fill='white' stroke='white' stroke-width='0.2'/%3E%3C/svg%3E");
   }
 }

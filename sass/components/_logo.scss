@@ -6,8 +6,9 @@
 
   letter-spacing: 0.03em;
 
-  color: var(--link-focus-color);
-}
-.logo__span {
-  color: var(--text-black-color);
+  color: $--link-focus-color;
+
+  &__span {
+    color: $--text-black-color;
+  }
 }
