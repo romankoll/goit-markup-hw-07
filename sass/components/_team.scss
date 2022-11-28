@@ -1,4 +1,8 @@
-$--items: 4;
+%card-set-items {
+    flex-basis: calc((100% - #{$indent} * (#{$items} - 1)) / #{$items});
+  }
+
+
 
 .team {
   padding: 94px 0;
@@ -16,13 +20,20 @@ $--items: 4;
   }
 
   &__list {
-    $--items: 4;
+  
+    
+  }
+  &__item {
+    $items: 4;
+    /*@include card;*/
+    flex-basis: calc((100% - #{$indent} * (#{$items} - 1)) / #{$items});
+    
   }
   &__group {
     max-width: 270px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: var(--text-fon-white-color);
+    background-color: $text-fon-white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -45,6 +56,6 @@ $--items: 4;
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: $--text-paragraf-color;
+    color: $text-paragraf-color;
   }
 }

@@ -18,9 +18,9 @@
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--text-black-color);
+  color: $text-black-color;
 
-  accent-color: var(--link-focus-color);
+  accent-color: $link-focus-color;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -28,7 +28,7 @@
 
   &:hover,
   &:focus {
-    color: var(--link-focus-color);
+    color: $link-focus-color;
   }
   &::after {
     content: '';
@@ -44,7 +44,7 @@
 
     border-radius: 2px;
 
-    background-color: $--link-focus-color;
+    background-color: $link-focus-color;
     opacity: 0;
     transition-property: transform, opacity;
     transition-duration: 250ms, 250ms;

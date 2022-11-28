@@ -1,9 +1,9 @@
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  gap: $--indent;
+  gap: $indent;
 
   &-items {
-    flex-basis: calc((100% - #{$--indent} * (#{$--items} - 1)) / #{$--items});
+    flex-basis: calc((100% - #{$indent} * (#{$items} - 1)) / #{$items});
   }
 }

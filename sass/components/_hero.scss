@@ -23,7 +23,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: $--text-fon-white-color;
+    color: $text-fon-white-color;
   }
 }
 .hero__btn {
@@ -44,9 +44,9 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background: $--link-focus-color;
+  background: $link-focus-color;
   cursor: pointer;
-  color: $--text-fon-white-color;
+  color: $text-fon-white-color;
   border: none;
 
   border-radius: 4px;

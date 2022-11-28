@@ -30,7 +30,7 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  color: $--text-paragraf-color;
+  color: $text-paragraf-color;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -38,7 +38,7 @@
 
   &:hover,
   &:focus {
-    color: $--link-focus-color;
+    color: $link-focus-color;
   }
 }
 
